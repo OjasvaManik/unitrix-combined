@@ -27,7 +27,7 @@ const Scratchpad = () => {
 
   return (
     <div
-      className="flex flex-col h-full min-h-[200px] w-full rounded-4xl border border-border bg-card p-6 shadow-sm transition-all hover:border-primary/50 lg:min-w-2xl">
+      className="flex flex-col h-full min-h-[200px] w-full rounded-4xl border border-border bg-card p-6 shadow-sm transition-all hover:border-primary/50">
       <div className="mb-4 flex items-center justify-between border-b border-border/40 pb-2">
         <label className="font-mono text-xs font-bold uppercase tracking-[0.2em] text-muted-foreground">
           Scratchpad

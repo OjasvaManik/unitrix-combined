@@ -69,7 +69,7 @@ export default function HexPomodoro() {
   };
 
   return (
-    <div className="w-full lg:min-w-2xl mx-auto">
+    <div className="w-full mx-auto">
       <audio ref={ audioRef } src="/alarm.wav" preload="auto"/>
       <div
         className="relative overflow-hidden rounded-4xl border border-border bg-card shadow-2xl transition-all duration-500 hover:shadow-primary/10">

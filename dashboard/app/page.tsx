@@ -7,7 +7,7 @@ import HexPomodoro from "@/components/hex-pomodoro";
 
 const HomePage = () => {
   return (
-    <div className="p-2 lg:p-4">
+    <div className="p-2 lg:mx-4">
 
       {/* 1. Greeting - Moved outside the grid so it sits on top */ }
       <div className="mb-4">
