@@ -28,7 +28,7 @@ export default function RootLayout( {
       enableSystem
       disableTransitionOnChange
     >
-      <div className={ cn( architectsDaughter.className, "relative min-h-screen lg:pb-14 pb-20 space-y-2" ) }>
+      <div className={ cn( architectsDaughter.className, "relative min-h-screen pb-20 space-y-2" ) }>
         { children }
 
         <div className="fixed bottom-0 left-0 right-0 z-50 w-full pointer-events-none flex justify-center">
